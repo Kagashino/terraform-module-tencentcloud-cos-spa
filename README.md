@@ -52,16 +52,18 @@ module cos_spa {
 
 Assume you have built the SPA assets to `dist` by using the front-end framework, the directory should like:
 
-> ├── . # project root  
-│  ├── dist  
-│  │  ├── error.html  
-│  │  ├── index.html  
-│  │  └── scripts  
-│  │      └── index.js  
-│  ├── main.tf # terraform config file  
+``` 
+├──. # project root
+│  ├── dist
+│  │  ├── error.html
+│  │  ├── index.html
+│  │  └── scripts
+│  │      └── index.js
+│  ├── main.tf # terraform config file
 │  ├── # ... other project files
+```
 
-Now you can run terraform commands:
+Now you can run terraform commands at the project root:
 
 ```shell
 $ terraform init
