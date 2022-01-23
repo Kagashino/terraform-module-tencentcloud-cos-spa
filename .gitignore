@@ -5,8 +5,7 @@
 *.tfvars
 terraform-provider-tencentcloud
 terraform-provider-qcloud
-terraform.tfstate
-terraform.tfstate.backup
+terraform.tfstate*
 terraform.tfstate.lock.info
 terraform_private.txt
 terraform_public.txt
