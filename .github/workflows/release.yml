@@ -1,6 +1,8 @@
 name: Release
 
-on: [push, tag, workflow_dispatch]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
